@@ -1,0 +1,23 @@
+{
+  "name": "hapi-dnode",
+  "version": "0.0.0",
+  "description": "Expose Hapi routes through dnode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec"
+  },
+  "keywords": [
+    "hapi",
+    "dnode"
+  ],
+  "author": "Simon Ljungberg",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "hapi": "~2.6.0",
+    "istanbul": "~0.2.4"
+  },
+  "dependencies": {
+    "dnode": "~1.2.0"
+  }
+}
